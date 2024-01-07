@@ -6,7 +6,8 @@ const About = () => {
       <section id="about-container">
         <div className="bio-content">
           <div className="about-title">
-            <h1>full stack web developer & ui/ux designer</h1>
+            <h1>full stack web developer &</h1>
+            <h1>ui/ux designer</h1>
           </div>
           <div className="about-paragraph">
             <p>
