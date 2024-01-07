@@ -34,3 +34,10 @@ margin-block-end: 0em;
   width: 45vw;
 }
 
+.connect-button {
+  background-color: black;
+  color: beige;
+  border-radius: 30px;
+  padding: 15px;;
+}
+
