@@ -25,7 +25,7 @@ const About = () => {
           </div>
          
         </div> 
-        <div className="about-picture">Picture</div>
+        <div className="about-picture"></div>
       </section>
     </>
   );
