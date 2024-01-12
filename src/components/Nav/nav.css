@@ -8,11 +8,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 80px 20px 80px;
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color: rgba(39, 39, 39, 0.267);
-  color: bisque;
+  padding: 30px 80px 10px 80px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: #E9E2D6;
+  color: rgb(52, 52, 52);
   border-bottom: 3px solid rgb(106, 106, 106);
   
 }
@@ -22,14 +22,16 @@
   flex-direction: row;
   justify-content: space-between;
   width: 15vw;
-  font-size: 0.7rem;
+  font-size: 10px;
+  font-family: "Inter";;
 }
 
 .name{
   display: flex;
   flex-direction: row;
   font-size: 20px;
-  font-family: "Inria Serif";
+  letter-spacing: 1px;
+  font-family: "Inter";
 }
 
 .experience-contact {
