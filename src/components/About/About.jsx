@@ -13,7 +13,7 @@ const About = () => {
             <p>
               HI MY NAME IS IS SALLY. IT'S MUCH, MUCH BETTER TO WIND UP WITH A
               LOT OF CRAP HAVING TRIED THAN TO OVERTHINK IN THE BEGINNING AND
-              NOT DO IT. EXPANSION IS KEY.
+              NOT DO IT. EXPANSION IS KEY.  You are the sculptor of your destiny.
             </p>
           </div>
 
