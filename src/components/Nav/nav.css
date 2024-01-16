@@ -14,6 +14,7 @@
   background-color: #E9E2D6;
   color: rgb(52, 52, 52);
   border-bottom: 3px solid rgb(106, 106, 106);
+  z-index: 2;
   
 }
 
@@ -40,6 +41,7 @@
   justify-content: space-between;
   width: 17vw;
   font-size: 0.7rem;
+  z-index: ;
 }
 
 .dash-nav {

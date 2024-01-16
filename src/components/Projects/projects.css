@@ -2,7 +2,7 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  margin: 70px 50px;
+  margin: 90px 90px;
 
 }
 
@@ -25,12 +25,12 @@ flex-wrap: wrap;
 gap: 4rem;
 justify-content: space-between;
 padding: 60px 0;
-width: 90vw;
+width: 87vw;
 }
 
 .project-card {
-  width: 45vh;
-  height: 55vh;
+  width: 50vh;
+  height: 65vh;
   background-color: azure;
   border-radius: 20px;
 }
@@ -50,5 +50,19 @@ width: 90vw;
   background-color: #6C8095;
 }
 
+.project-pic {
+  padding: 140px;
+}
+
+.project-name {
+    font-size: 21px;
+    width: 25vw;
+    margin: 20px;;
+    line-height: 75px;
+    letter-spacing: 3px;
+    color: whitesmoke;
+    font-family: "Inter";
+    font-weight: 600;  
+}
 
 
