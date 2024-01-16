@@ -51,18 +51,64 @@ width: 87vw;
 }
 
 .project-pic {
-  padding: 140px;
+  padding: 120px;
 }
 
 .project-name {
-    font-size: 21px;
-    width: 25vw;
-    margin: 20px;;
-    line-height: 75px;
-    letter-spacing: 3px;
+    font-size: 25px;
+    width: 22vw;
+    margin: 10px 30px;
+    letter-spacing: 2px;
+    line-height: 22px;
     color: whitesmoke;
     font-family: "Inter";
     font-weight: 600;  
+}
+
+.description {
+  margin: 20px 30px;
+  margin-right: 40px;
+  text-align:justify;
+}
+
+.github-demo {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 20px 30px;
+}
+
+.button-github {
+background-color: rgba(255, 68, 0, 0);
+color: white;
+padding: 10px 20px;
+font-family: "Inter";
+font-size: 20px;
+border: 3px white solid;
+border-radius: 30px;
+}
+
+.button-github:hover {
+  background-color: white;
+  color:#413D3D;
+  transition: 0.3s linear;
+  }
+  
+
+.button-demo {
+  background-color: #413D3D;
+  color: white;
+  padding: 12px 20px;
+  font-family: "Inter";
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+}
+
+.button-demo:hover {
+background-color: #FCD44A;
+color:#413D3D;
+transition: 0.3s linear;
 }
 
 
