@@ -24,10 +24,9 @@ const Projects = () => {
           <figure className="project-pic">
           <img className="project-pic" src={project1pic} alt="Project Photo" />
           </figure>
-          <h1 className="project-name">MENSTRUAL TRACKING APP</h1>
+          <h1 className="project-name">PORTFOLIO DESIGN FOR OUTFITTERS TENT</h1>
           <p className="description">
-            This app tracks your menstrual cycle to provide optimization in your
-            overall health, activity, fasting.
+          A MINIMAL WEBSITE FOR MY FRIEND TO SHARE HIS TALENT WITH THE WORLD.
           </p>
           <div className="github-demo">
             <button className="button-github">GITHUB</button>
@@ -38,10 +37,9 @@ const Projects = () => {
           <figure className="project-pic">
             <img className="project-pic" src={project1pic} alt="Project Photo" />
           </figure>
-          <h1 className="project-name">MENSTRUAL TRACKING APP</h1>
+          <h1 className="project-name">JUST FOR US APP</h1>
           <p className="description">
-            This app tracks your menstrual cycle to provide optimization in your
-            overall health, activity, fasting.
+          SENIOR ENHANCED LIVING APP FOR CONNECTION AND BELONGING
           </p>
           <div className="github-demo">
             <button className="button-github">GITHUB</button>
