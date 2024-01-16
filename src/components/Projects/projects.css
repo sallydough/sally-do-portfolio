@@ -33,6 +33,22 @@ width: 90vw;
   height: 55vh;
   background-color: azure;
   border-radius: 20px;
-  padding: 30px;
 }
+
+.card1, .card5 {
+  background-color: #B4593E;
+}
+
+.card2, .card6 {
+  background-color:#99AA9F;
+}
+
+.card3 {
+  background-color: #A46B6B;
+}
+.card4 {
+  background-color: #6C8095;
+}
+
+
 
