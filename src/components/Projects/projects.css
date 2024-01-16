@@ -51,7 +51,10 @@ width: 87vw;
 }
 
 .project-pic {
-  padding: 120px;
+  width: 325px;
+  height: 220px;
+  margin: 15px;
+  margin-bottom: 30px;
 }
 
 .project-name {
@@ -69,6 +72,7 @@ width: 87vw;
   margin: 20px 30px;
   margin-right: 40px;
   text-align:justify;
+  color:#313131;
 }
 
 .github-demo {
