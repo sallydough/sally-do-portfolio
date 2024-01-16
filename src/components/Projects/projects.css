@@ -1,0 +1,38 @@
+#projects {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 70px 50px;
+
+}
+
+.project-title {
+  font-size: 110px;
+  width: 70vw;
+  line-height: 120px;
+  letter-spacing: 2x;
+  color: rgb(51, 51, 50);
+  font-family: "Inria Serif";
+  font-style: italic;
+  text-align: left;
+  font-weight: 500;
+}
+
+.project-card-container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 4rem;
+justify-content: space-between;
+padding: 60px 0;
+width: 90vw;
+}
+
+.project-card {
+  width: 45vh;
+  height: 55vh;
+  background-color: azure;
+  border-radius: 20px;
+  padding: 30px;
+}
+
