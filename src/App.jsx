@@ -17,8 +17,6 @@ function App() {
     <Experience />
     <Contact />
     <Footer />
-
-    <h1>Sally Do Portfolio</h1>
     </>
   )
 }

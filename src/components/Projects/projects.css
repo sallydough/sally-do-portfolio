@@ -2,7 +2,9 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  margin: 90px 90px;
+  padding: 90px 90px;
+  background-image: url("../spiral-background.jpg");
+  background-size: 55rem;
 
 }
 
