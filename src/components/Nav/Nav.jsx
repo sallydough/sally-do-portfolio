@@ -10,7 +10,7 @@ const Nav = () => {
         <h2>PROJECTS</h2>
       </div>
       <div className="name">
-        <h2>SALLY DO</h2>
+        <h2>Sally Do</h2>
       </div>
       <div className="experience-contact">
         <h2>EXPERIENCE</h2>
