@@ -1,0 +1,40 @@
+#contact {
+  width: 100vw;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-title {
+  font-size: 110px;
+  width: 70vw;
+  line-height: 120px;
+  letter-spacing: 2x;
+  color: rgb(51, 51, 50);
+  font-family: "Inria Serif";
+  font-style: italic;
+  text-align: left;
+  font-weight: 500;
+}
+
+.form-submit {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-socials {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-link {
+  display: flex;
+  flex-direction: row;
+}
+
+.photo-socials {
+  display: flex;
+  flex-direction: row;
+}

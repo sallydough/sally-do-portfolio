@@ -11,10 +11,8 @@ const About = () => {
           </div>
           <div className="about-paragraph">
             <p>
-              HI MY NAME IS IS SALLY. IT'S MUCH, MUCH BETTER TO WIND UP WITH A
-              LOT OF CRAP HAVING TRIED THAN TO OVERTHINK IN THE BEGINNING AND
-              NOT DO IT. EXPANSION IS KEY. 
-            </p>
+              HI MY NAME IS IS SALLY. FULL STACK SOFTWARE DEVELOPER AND SELF-TAUGHT UX/UI DESIGNER SPECIALIZED IN WEB AND MOBILE APPLICATIONS.
+              </p>
           </div>
 
           <div className="arrow-connect-button">
