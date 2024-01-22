@@ -26,7 +26,7 @@ const Projects = () => {
           </figure>
           <h1 className="project-name">PORTFOLIO DESIGN FOR OUTFITTERS TENT</h1>
           <p className="description">
-          A MINIMAL WEBSITE FOR MY FRIEND TO SHARE HIS TALENT WITH THE WORLD.
+          A MINIMAL WEBSITE FOR MY FRIEND TO SHARE HIS TALENT WITH THE WORLD. Hello.
           </p>
           <div className="github-demo">
             <button className="button-github">GITHUB</button>
