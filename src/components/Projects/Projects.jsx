@@ -48,7 +48,7 @@ const Projects = () => {
         </article>
         <article className="project-card card4">
           <figure className="project-pic"><img className="project-pic" src={project1pic} alt="Project Photo" /></figure>
-          <h1 className="project-name">MENSTRUAL TRACKING APP</h1>
+          <h1 className="project-name">AI SUMMARIZER</h1>
           <p className="description">
             This app tracks your menstrual cycle to provide optimization in your
             overall health, activity, fasting.
