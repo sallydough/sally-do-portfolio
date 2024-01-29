@@ -51,7 +51,7 @@ const Projects = () => {
           <h1 className="project-name">AI SUMMARIZER</h1>
           <p className="description">
             This app tracks your menstrual cycle to provide optimization in your
-            overall health, activity, fasting.
+            overall health, activity, fasting. overall health, activity, fasting.
           </p>
           <div className="github-demo">
             <button className="button-github">GITHUB</button>
