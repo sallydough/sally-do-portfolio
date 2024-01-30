@@ -28,7 +28,7 @@ const Contact = () => {
             <h1>linkedin</h1>
             <h1>github</h1>
             <h1>facebook</h1>
-            <h1>ig</h1>
+            <h1>instagram</h1>
           </div>
         </div>
       </div>
