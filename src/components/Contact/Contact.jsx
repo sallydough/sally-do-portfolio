@@ -21,30 +21,55 @@ const Contact = () => {
         </div> */}
       </div>
       <div className="contact-socials">
-    
         <div className="email-link">
-          <h2>
-            <MdOutlineMail />
-          </h2>
-          <h2>sallydoh@gmail.com</h2>
+          <a href="mailto:sallydoh@gmail.com?">
+            <h2>
+              <MdOutlineMail size={70} />
+            </h2>
+            <h2>sallydoh@gmail.com</h2>
+          </a>
         </div>
         <div className="photo-socials">
           <div className="socials">
             <div className="socials-group">
-              <FaLinkedin size={120} />
-              <h1>linkedin</h1>
+              <a
+                href="https://www.linkedin.com/in/sallydough/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin size={120} />
+                <h1>linkedin</h1>
+              </a>
             </div>
             <div className="socials-group">
-              <BsGithub size={120} />
-            <h1>github</h1>
+              <a
+                href="https://github.com/sallydough"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsGithub size={120} />
+                <h1>github</h1>
+              </a>
             </div>
             <div className="socials-group">
-              <RiMessengerFill size={120} />
-            <h1>facebook</h1>
+              <a
+                href="https://www.facebook.com/sallyuyen"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <RiMessengerFill size={120} />
+                <h1>facebook</h1>
+              </a>
             </div>
             <div className="socials-group">
-             <RiInstagramFill size={120} />
-            <h1>instagram</h1>
+              <a
+                href="https://www.instagram.com/sallydough/?hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <RiInstagramFill size={120} />
+                <h1>instagram</h1>
+              </a>
             </div>
           </div>
         </div>

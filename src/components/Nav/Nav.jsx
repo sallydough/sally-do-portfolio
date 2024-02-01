@@ -18,9 +18,9 @@ const Nav = () => {
         <h2>Sally Do</h2>
       </div>
       <div className="experience-contact">
-      <Link to="/experience" style={{ textDecoration: 'none' }}>
+      {/* <Link to="/experience" style={{ textDecoration: 'none' }}>
             <h2>EXPERIENCE</h2>
-          </Link>
+          </Link> */}
         <h1 className="dash-nav"></h1>
         <Link to="/contact" style={{ textDecoration: 'none' }}>
             <h2>CONTACT</h2>
