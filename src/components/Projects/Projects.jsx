@@ -18,11 +18,11 @@ const Projects = () => {
               alt="Project Photo"
             />
           </figure>
-          <h1 className="project-name">Shop Chique</h1>
+          <h1 className="project-name">SHOP CHIQUE</h1>
           <p className="description">
             LEARNED CONCEPTS OF HTML, CSS, JAVASCRIPT, AND MEDIA QUERIES THROUGH CREATION OF E-COMMERCE WEBSITE.
     
-            <br/> Technology used: HTML, CSS, JavaScript, Media Queries
+            <br/>  <br/>Technology used: HTML, CSS, JavaScript, Media Queries
           </p>
           <div className="github-demo">
           <a href="https://github.com/sallydough/eccomerce-website" target="_blank" rel="noopener noreferrer">
@@ -60,7 +60,8 @@ const Projects = () => {
           </figure>
           <h1 className="project-name">JUST FOR US APP</h1>
           <p className="description">
-            SENIOR ENHANCED LIVING APP FOR CONNECTION AND BELONGING
+            TV/TABLET-BASED APPLICATION THAT ENABLES COMMUNITY-BUILDING AMONGST SENIORS SOLVING PROXIMITY AND ACCESSIBILITY CONSTRAINTS
+            <br/><br/>Technology used: HTMl, CSS, JS, React, FetchAPI, Google Assistant API, Express, NodeJS
           </p>
           <div className="github-demo">
           
