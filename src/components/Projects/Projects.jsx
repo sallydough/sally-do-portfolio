@@ -36,7 +36,7 @@ const Projects = () => {
           <figure className="project-pic">
             <img className="project-pic" src={canvaspic} alt="Project Photo" />
           </figure>
-          <h1 className="project-name">PORTFOLIO DESIGN FOR OUTFITTERS TENT</h1>
+          <h1 className="project-name">PORTFOLIO FOR OUTFITTERS TENT DESIGNER</h1>
           <p className="description">
             CREATED A MINIMAL LOGO, ICON, BRAND, AND UI DESIGN FOR MY FRIEND TO SHARE
             HIS TALENT WITH THE WORLD.
