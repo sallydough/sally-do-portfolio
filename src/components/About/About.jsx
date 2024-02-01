@@ -11,14 +11,14 @@ const About = () => {
           </div>
           <div className="about-paragraph">
             <p>
-              HI MY NAME IS IS SALLY. FULL STACK SOFTWARE DEVELOPER AND SELF-TAUGHT UX/UI DESIGNER SPECIALIZED IN WEB AND MOBILE APPLICATIONS.
+              HI, I'M SALLY. DESIGNING, DEVELOPING, AND MAINTAINING WEB APPLICATIONS USING FIGMA, HTML, CSS, REACT, AND RELATED TECHNOLOGIES.
               </p>
           </div>
 
           <div className="arrow-connect-button">
             <div className="about-arrow">↓</div>
             <div className="connect-button">
-              <h1>let's work together ➛</h1>
+              <h1>let's DO stuff together ➛</h1>
             </div>
           </div>
          
