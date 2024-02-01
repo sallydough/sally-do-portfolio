@@ -16,7 +16,7 @@ const About = () => {
           </div>
 
           <div className="arrow-connect-button">
-            <div className="about-arrow">↓</div>
+            <div className="about-arrow">↑</div>
             <div className="connect-button">
               <h1>let's DO stuff together ➛</h1>
             </div>

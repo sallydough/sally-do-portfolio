@@ -1,6 +1,5 @@
 import "./projects.css";
-import project1pic from "../../components/Projects/branching-river.jpg";
-import canvaspic from "../../components/Projects/canvas-tent.png";
+import canvaspic from "../../components/Projects/CANVAS2.png";
 import justforuspic from "../../components/Projects/just-for-us.png";
 import shopsitepic from "../../components/Projects/SHOP-SITE.png";
 
@@ -47,8 +46,8 @@ const Projects = () => {
           </p>
 
           <div className="github-demo">
-            <button className="button-github">GITHUB</button>
-            <button className="button-demo">LIVE DEMO</button>
+          <a href="https://www.figma.com/file/oHku9t1OkXcc9G6ZGgk96n/Sally-Design-Board?type=design&node-id=210-101&mode=design&t=DZi3MKHVNibBuPEo-0" target="_blank" rel="noopener noreferrer">
+              <button className="button-github">VIEW FIGMA</button></a>
           </div>
         </article>
         <article className="project-card card3">
