@@ -31,7 +31,7 @@
 .contact-socials {
   display: flex;
   flex-direction: column;
-  gap: 8rem;
+  gap: 4rem;
   width: 100vh;
   text-align: center;
 }
