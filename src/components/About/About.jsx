@@ -1,4 +1,5 @@
 import "./about.css";
+import {Link} from 'react-router-dom';
 
 const About = () => {
   return (
@@ -17,9 +18,11 @@ const About = () => {
 
           <div className="arrow-connect-button">
             <div className="about-arrow">↑</div>
-            <div className="connect-button">
+            <Link to="/contact" style={{ textDecoration: 'none' }}>
+              <div className="connect-button">
               <h1>let's DO stuff together ➛</h1>
             </div>
+            </Link>
           </div>
          
         </div> 
