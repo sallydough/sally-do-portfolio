@@ -61,7 +61,7 @@ const Projects = () => {
           <h1 className="project-name">JUST FOR US APP</h1>
           <p className="description">
             TV/TABLET-BASED APPLICATION THAT ENABLES COMMUNITY-BUILDING AMONGST SENIORS SOLVING PROXIMITY AND ACCESSIBILITY CONSTRAINTS
-            <br/><br/>Technology used: HTMl, CSS, JS, React, FetchAPI, Google Assistant API, Express, NodeJS
+            <br/><br/>Technology used: HTML, CSS, JS, React, FetchAPI, Google Assistant API, Express, NodeJS
           </p>
           <div className="github-demo">
           
