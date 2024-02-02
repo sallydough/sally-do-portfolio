@@ -148,3 +148,13 @@
     font-size: 22px;
   }
 }
+
+/* Phones - Landscape */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* Your phone landscape styles go here */
+}
+
+/* Phones - Portrait */
+@media only screen and (max-width: 480px) {
+  /* Your phone portrait styles go here */
+}

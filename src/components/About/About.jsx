@@ -10,6 +10,7 @@ const About = () => {
             <h1 className="dev">full stack web developer &</h1>
             <h1 className="ui-ux">ui/ux designer</h1>
           </div>
+          <div className="about-picture-mobile"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
           <div className="about-paragraph">
             <p>
               HI, I'M SALLY. DESIGNING, DEVELOPING, AND MAINTAINING WEB APPLICATIONS USING FIGMA, HTML, CSS, REACT, AND RELATED TECHNOLOGIES.
