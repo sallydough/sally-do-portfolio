@@ -244,7 +244,7 @@ margin-block-end: 0em;
   }
 }
 
-/* Phones - Landscape
+/* Phones - Landscape */
 @media only screen and (min-width: 481px) and (max-width: 767px) {
 
   .about {
@@ -272,16 +272,17 @@ margin-block-end: 0em;
   margin-top: 30px;
   margin-left: 40px;
   width: 90vw;
-  font-size: 40px;
+  font-size: 35px;
+  text-align: left;
   font-weight: 200;
-  line-height: 40px;
+  line-height: 42px;
   margin-block-start: 0em;
   margin-block-end: 0em;
   }
   
   .arrow-connect-button {
     margin: 40px;
-    margin-left: 240px;
+    margin-left: 100px;
     margin-top: 40px;
   }
   
@@ -291,10 +292,10 @@ margin-block-end: 0em;
   
   .connect-button {
     font-size: 24px;
-    width: 40vw;
+    width: 300px;
     padding: 17px;
-    padding-left: 50px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
   }  
   
   .about-picture-mobile {
@@ -315,7 +316,7 @@ margin-block-end: 0em;
 }
 
 /* Phones - Portrait */
-/* @media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   .about {
     flex-direction: row;
     width: 100vw;
@@ -380,4 +381,4 @@ margin-block-end: 0em;
   .about-picture{
     display: none;
   } 
-} */ 
+} 
