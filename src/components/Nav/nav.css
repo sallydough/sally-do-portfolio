@@ -28,8 +28,7 @@
   width: 25vw;
   font-size: 15px;
   font-family: "Inter";
-  color: rgb(52, 52, 52);
-  
+  color: rgb(52, 52, 52); 
 }
 
 .about-projects a{
@@ -75,4 +74,39 @@
 
 .dash-nav {
   font-size: 30px;
+}
+
+/* Tablets - Portrait */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #nav {
+    padding: 20px 5px;
+    width: 100vw;
+    justify-content: flex-start;
+    margin-left: 0px;
+  }
+
+  .about-projects  {
+    width: 40vw;
+    font-size: 10px;
+    justify-content: flex-start
+  }
+
+  .about-projects a{
+    padding: 10px 15px;
+  }
+
+  .name{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  
+  .experience-contact {
+    justify-content: flex-end;
+    width: 38vw;
+    font-size: 10px;
+  }
+  
+  .experience-contact a{
+    padding: 10px 15px;
+  }
 }
