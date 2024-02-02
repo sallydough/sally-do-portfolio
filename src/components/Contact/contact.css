@@ -85,3 +85,44 @@
   color: #6C8095;
   transition: 0.5s ease;
 }
+
+/* Tablets - Portrait */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #contact {
+    margin-top: 150px;
+  }
+  
+  .contact-title {
+    font-size: 100px;
+    margin-bottom: 4rem;
+  }
+  
+  .contact-socials {
+    gap: 6rem;
+  }
+  
+  .socials-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem; 
+  }
+
+  
+  .socials {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-left: 10%;
+    font-size: 15px;
+  }
+  
+  .email-link {
+    margin-left: 25%;
+    font-size: 22px;
+  }
+  
+  .email-link a{
+    gap: 1rem;
+  }
+}
