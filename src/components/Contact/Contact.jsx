@@ -37,7 +37,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaLinkedin size={120} />
+                <FaLinkedin className="contact-icon" />
                 <h1>linkedin</h1>
               </a>
             </div>
@@ -47,7 +47,8 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <BsGithub size={120} />
+                <BsGithub 
+                className="contact-icon" />
                 <h1>github</h1>
               </a>
             </div>
@@ -57,7 +58,8 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <RiMessengerFill size={120} />
+                <RiMessengerFill 
+                className="contact-icon" />
                 <h1>facebook</h1>
               </a>
             </div>
@@ -67,7 +69,8 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <RiInstagramFill size={120} />
+                <RiInstagramFill 
+                className="contact-icon" />
                 <h1>instagram</h1>
               </a>
             </div>

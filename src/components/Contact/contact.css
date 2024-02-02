@@ -36,6 +36,10 @@
   text-align: center;
 }
 
+.contact-icon {
+  font-size: 120px;
+}
+
 .photo-socials {
   display: flex;
   flex-direction: row;
@@ -89,12 +93,16 @@
 /* Tablets - Portrait */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   #contact {
-    margin-top: 150px;
+    margin-top: 170px;
+    width: 100vw;
   }
   
   .contact-title {
-    font-size: 100px;
+    font-size: 60px;
+    width: 100vw;
+    text-align: center;
     margin-bottom: 4rem;
+    
   }
   
   .contact-socials {
@@ -104,22 +112,27 @@
   .socials-group {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 6rem; 
+    margin-left: 17%;
+  }
+
+  .contact-icon {
+    font-size: 60px;
   }
 
   
   .socials {
     display: flex;
     flex-direction: row;
-    gap: 3rem;
-    margin-left: 10%;
-    font-size: 15px;
+    gap: 0rem;
+    font-size: 10px;
+    margin-left: 7%;
+
   }
   
   .email-link {
-    margin-left: 25%;
-    font-size: 22px;
+    margin-left: 15%;
+    font-size: 15px;
   }
   
   .email-link a{
@@ -129,22 +142,27 @@
 
 /* Tablets - Landscape */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-
+  #contact {
+    margin-top: 120px;
+  }
   
   .contact-title {
-    font-size: 100px;
-    margin-bottom: 4rem;
+    font-size: 80px;
+   text-align: left;
+   margin-left: 6rem;
+    margin-bottom: 2rem;
   }
 
   
   .socials {
     gap: 2rem;
-    margin-left: 25%;
+    margin-left: 8%;
     font-size: 15px;
+
   }
   
   .email-link {
-    margin-left: 35%;
+    margin-left: 15%;
     font-size: 22px;
   }
 }
