@@ -20,7 +20,7 @@ const About = () => {
             <div className="about-arrow">↑</div>
             <Link to="/contact" style={{ textDecoration: 'none' }}>
               <div className="connect-button">
-              <h1>let's DO this ➛</h1>
+              <h1>Let's DO this ➛</h1>
             </div>
             </Link>
           </div>
