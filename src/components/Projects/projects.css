@@ -120,4 +120,59 @@ color:#413D3D;
 transition: 0.3s linear;
 }
 
+/* Tablets - Portrait */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #projects {
+    padding: 90px 90px;
+    margin-top: 10px;
+  
+  }
+  
+  .project-title {
+    font-size: 52px;
+    text-underline-offset: 40px;
+    text-align: left;
+  }
+  
+  .project-card-container {
+  flex-direction: column;
+
+  }
+  
+  .project-card {
+    width: 75vh;
+    height: 90vh;
+  }
+  
+  .project-pic {
+    width: 530px;
+    border-radius: 10px;
+    height: 300px;
+  }
+  
+  .project-name {
+      font-size: 35px;
+      width: 72vw;
+      line-height: 30px;
+  }
+  
+  .description {
+    font-size: 20px;
+  }
+  
+  .github-demo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 30px 30px;
+  }
+  
+  .button-github {
+  font-size: 25px;
+  }
+  
+  .button-demo {
+    font-size: 25px;
+  }
+}
 
