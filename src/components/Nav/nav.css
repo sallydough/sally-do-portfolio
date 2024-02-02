@@ -110,3 +110,38 @@
     padding: 10px 15px;
   }
 }
+
+/* Tablets - Landscape */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  #nav {
+    padding: 20px 30px;
+    width: 100vw;
+    justify-content: flex-start;
+    margin-left: 0px;
+  }
+
+  .about-projects  {
+    width: 40vw;
+    font-size: 10px;
+    justify-content: flex-start
+  }
+
+  .about-projects a{
+    padding: 10px 15px;
+  }
+
+  .name{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  
+  .experience-contact {
+    justify-content: flex-end;
+    width: 38vw;
+    font-size: 10px;
+  }
+  
+  .experience-contact a{
+    padding: 10px 15px;
+  }
+}
