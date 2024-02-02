@@ -307,12 +307,74 @@ margin-block-end: 0em;
 
   .about-picture{
     display: none;
-  }
-  
+  } 
 
 }
 
 /* Phones - Portrait */
 @media only screen and (max-width: 480px) {
-  /* Your phone portrait styles go here */
+  .about {
+    flex-direction: row;
+    width: 100vw;
+    margin-top: 90px;
+    position: relative;
+  }
+
+  .bio-content {
+    width: 100vw;
+  }
+  
+  .about-title {
+  font-size: 35px;
+  width: 100vw;
+  line-height: 50px;
+  margin-top: 70px;
+  margin-left: 10px;
+  text-align: center;
+  }
+  
+  .about-paragraph {
+  margin: 70px;
+  margin-top: 30px;
+  margin-left: 60px;
+  width: 87vw;
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 40px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  }
+  
+  .arrow-connect-button {
+    margin: 40px;
+    margin-left: 70px;
+    margin-top: 35px;
+  }
+  
+  .about-arrow {
+    display: none;
+  }
+  
+  .connect-button {
+    font-size: 25px;
+    width: 55vw;
+    padding: 17px;
+    padding-left: 50px;
+    padding-right: 40px;
+  }  
+  
+  .about-picture-mobile {
+    display: flex;
+   margin-left: 50px;
+   margin-bottom: 30px;
+    background-image: url("./sally-do-profile.jpg");
+    background-size: 43rem;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    width: 85vw;
+  }
+
+  .about-picture{
+    display: none;
+  } 
 }
