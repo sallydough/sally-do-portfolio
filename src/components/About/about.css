@@ -99,9 +99,9 @@ margin-block-end: 0em;
 .about-picture {
   background-image: url("./sally-do-profile.jpg");
   background-size: 45rem;
-  background-position: center top;
+  background-position: center bottom;
   background-repeat: no-repeat;
-  height: 120vh;
+  /* height: 120vh; */
   width: 40.5vw;
   position: relative;
   top: -35%;
@@ -173,10 +173,13 @@ margin-block-end: 0em;
   .about-picture {
     background-image: url("./sally-do-profile.jpg");
     background-size: 43rem;
-    background-position: center top;
+    background-position: center bottom;
     background-repeat: no-repeat;
-    height: 120vh;
+    height: 85vh;
     width: 50vw;
+    position: relative;
+    top: -55%;
+  z-index: -200;
   }
 
   .about-picture-mobile {
@@ -230,9 +233,9 @@ margin-block-end: 0em;
   .about-picture {
     background-image: url("./sally-do-profile.jpg");
     background-size: 43rem;
-    background-position: center top;
+    background-position: center bottom;
     background-repeat: no-repeat;
-    height: 120vh;
+    height: 85vh;
     width: 48vw;
   }
 
@@ -241,7 +244,7 @@ margin-block-end: 0em;
   }
 }
 
-/* Phones - Landscape */
+/* Phones - Landscape
 @media only screen and (min-width: 481px) and (max-width: 767px) {
 
   .about {
@@ -312,7 +315,7 @@ margin-block-end: 0em;
 }
 
 /* Phones - Portrait */
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
   .about {
     flex-direction: row;
     width: 100vw;
@@ -377,4 +380,4 @@ margin-block-end: 0em;
   .about-picture{
     display: none;
   } 
-}
+} */ 
