@@ -126,3 +126,25 @@
     gap: 1rem;
   }
 }
+
+/* Tablets - Landscape */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+  
+  .contact-title {
+    font-size: 100px;
+    margin-bottom: 4rem;
+  }
+
+  
+  .socials {
+    gap: 2rem;
+    margin-left: 25%;
+    font-size: 15px;
+  }
+  
+  .email-link {
+    margin-left: 35%;
+    font-size: 22px;
+  }
+}
