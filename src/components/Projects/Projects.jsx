@@ -16,7 +16,7 @@ const Projects = () => {
           <figure className="project-pic">
             <img className="project-pic" src={splineproject} alt="Project Photo" />
           </figure>
-          <h1 className="project-name">3-D FUTURISTIC DASHBOARD USING SPLINE AND REACT</h1>
+          <h1 className="project-name">3-D DASHBOARD USING SPLINE AND REACT</h1>
           <p className="description">
             PLAYED AROUND USING SPLINE TO CREATE 3D WEBSITE AND OBJECTS
             <br />
