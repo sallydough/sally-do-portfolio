@@ -2,6 +2,7 @@ import "./projects.css";
 import canvaspic from "../../components/Projects/CANVAS2.png";
 import justforuspic from "../../components/Projects/just-for-us.png";
 import shopsitepic from "../../components/Projects/SHOP-SITE.png";
+import splineproject from "../../components/Projects/spline-project.png"
 
 const Projects = () => {
   return (
@@ -10,26 +11,21 @@ const Projects = () => {
         <h1>work & projects*</h1>
       </div>
       <main className="project-card-container">
-        <article className="project-card card1">
+     
+        <article className="project-card card4">
           <figure className="project-pic">
-            <img
-              className="project-pic"
-              src={shopsitepic}
-              alt="Project Photo"
-            />
+            <img className="project-pic" src={splineproject} alt="Project Photo" />
           </figure>
-          <h1 className="project-name">SHOP CHIQUE</h1>
+          <h1 className="project-name">3-D FUTURISTIC DASHBOARD USING SPLINE AND REACT</h1>
           <p className="description">
-            LEARNED CONCEPTS OF HTML, CSS, JAVASCRIPT, AND MEDIA QUERIES THROUGH CREATION OF E-COMMERCE WEBSITE.
-    
-            <br/>  <br/>Technology used: HTML, CSS, JavaScript, Media Queries
+            PLAYED AROUND USING SPLINE TO CREATE 3D WEBSITE AND OBJECTS
+            <br />
+            <br />
+            Technology used: Spline, YouTube
           </p>
           <div className="github-demo">
-          <a href="https://github.com/sallydough/eccomerce-website" target="_blank" rel="noopener noreferrer">
-              <button className="button-github">GITHUB</button></a>
-            <a href="https://sallydough.github.io/eccomerce-website/" target="_blank" rel="noopener noreferrer">
-              <button className="button-demo">LIVE DEMO</button>
-             </a>
+          <a href="https://app.spline.design/file/fc557720-683f-41e5-a8d2-35383b4b6002" target="_blank" rel="noopener noreferrer">
+              <button className="button-github">VIEW SPLINE</button></a>
           </div>
         </article>
         <article className="project-card card2">
@@ -72,19 +68,30 @@ const Projects = () => {
              </a>
           </div>
         </article>
-        {/* <article className="project-card card4">
-          <figure className="project-pic"><img className="project-pic" src={project1pic} alt="Project Photo" /></figure>
-          <h1 className="project-name">AI SUMMARIZER</h1>
+        <article className="project-card card1">
+          <figure className="project-pic">
+            <img
+              className="project-pic"
+              src={shopsitepic}
+              alt="Project Photo"
+            />
+          </figure>
+          <h1 className="project-name">SHOP CHIQUE</h1>
           <p className="description">
-            This app tracks your menstrual cycle to provide optimization in your
-            overall health, activity, fasting. overall health, activity, fasting.
+            LEARNED CONCEPTS OF HTML, CSS, JAVASCRIPT, AND MEDIA QUERIES THROUGH CREATION OF E-COMMERCE WEBSITE.
+    
+            <br/>  <br/>Technology used: HTML, CSS, JavaScript, Media Queries
           </p>
           <div className="github-demo">
-            <button className="button-github">GITHUB</button>
-            <button className="button-demo">LIVE DEMO</button>
+          <a href="https://github.com/sallydough/eccomerce-website" target="_blank" rel="noopener noreferrer">
+              <button className="button-github">GITHUB</button></a>
+            <a href="https://sallydough.github.io/eccomerce-website/" target="_blank" rel="noopener noreferrer">
+              <button className="button-demo">LIVE DEMO</button>
+             </a>
           </div>
         </article>
-        <article className="project-card card5">
+
+       {/* <article className="project-card card5">
           <figure className="project-pic"><img className="project-pic" src={project1pic} alt="Project Photo" /></figure>
           <h1 className="project-name">MENSTRUAL TRACKING APP</h1>
           <p className="description">
