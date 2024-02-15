@@ -20,6 +20,7 @@ const Contact = () => {
           </form>
         </div> */}
       </div>
+    {/* comment */}
       <div className="contact-socials">
         <div className="email-link">
           <a href="mailto:sallydoh@gmail.com?">
