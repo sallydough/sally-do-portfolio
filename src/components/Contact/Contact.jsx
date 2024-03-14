@@ -19,6 +19,7 @@ const Contact = () => {
             <button>Send</button>
           </form>
         </div> */}
+        {/* comment */}
       </div>
   
       <div className="contact-socials">
