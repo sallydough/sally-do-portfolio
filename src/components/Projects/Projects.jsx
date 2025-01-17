@@ -1,6 +1,6 @@
 import "./projects.css";
 import canvaspic from "../../components/Projects/CANVAS2.png";
-import justforuspic from "../../components/Projects/just-for-us.png";
+import justforuspic from "../../components/Projects/gardenloft.png";
 import shopsitepic from "../../components/Projects/SHOP-SITE.png";
 import splineproject from "../../components/Projects/spline-project.png"
 
@@ -11,6 +11,30 @@ const Projects = () => {
         <h1>work & projects*</h1>
       </div>
       <main className="project-card-container">
+
+      <article className="project-card card3">
+          <figure className="project-pic">
+            <img
+              className="project-pic"
+              src={justforuspic}
+              alt="Project Photo"
+            />
+          </figure>
+          <h1 className="project-name">GARDEN LOFT APP</h1>
+          <p className="description">
+          Designed, developed, and deployed a mobile multifunctional app aimed at fostering community among seniors.
+          Integrated advanced features such as smart home device controls, video calling, live chat, friend requests, and activity management.
+            <br/><br/>Technology used: Expo, React-Native, Firebase, VideoSDK, , NodeJS, Home Assistant
+          </p>
+          <div className="github-demo">
+          
+          <a href="https://github.com/sallydough/app-garden-loft" target="_blank" rel="noopener noreferrer">
+              <button className="button-github">GITHUB</button></a>
+            <a href="https://apps.apple.com/ca/app/garden-loft/id6508169875" target="_blank" rel="noopener noreferrer">
+              <button className="button-demo">DOWNLOAD APP</button>
+             </a>
+          </div>
+        </article>
      
         <article className="project-card card4">
           <figure className="project-pic">
@@ -44,28 +68,6 @@ const Projects = () => {
           <div className="github-demo">
           <a href="https://www.figma.com/file/oHku9t1OkXcc9G6ZGgk96n/Sally-Design-Board?type=design&node-id=210-101&mode=design&t=DZi3MKHVNibBuPEo-0" target="_blank" rel="noopener noreferrer">
               <button className="button-github">VIEW FIGMA</button></a>
-          </div>
-        </article>
-        <article className="project-card card3">
-          <figure className="project-pic">
-            <img
-              className="project-pic"
-              src={justforuspic}
-              alt="Project Photo"
-            />
-          </figure>
-          <h1 className="project-name">JUST FOR US APP</h1>
-          <p className="description">
-            TV/TABLET-BASED APPLICATION THAT ENABLES COMMUNITY-BUILDING AMONGST SENIORS SOLVING PROXIMITY AND ACCESSIBILITY CONSTRAINTS
-            <br/><br/>Technology used: HTML, CSS, JS, React, FetchAPI, Google Assistant API, Express, NodeJS
-          </p>
-          <div className="github-demo">
-          
-          <a href="https://github.com/sallydough/just-for-us-master" target="_blank" rel="noopener noreferrer">
-              <button className="button-github">GITHUB</button></a>
-            <a href="https://just-for-us-master.vercel.app/" target="_blank" rel="noopener noreferrer">
-              <button className="button-demo">LIVE DEMO</button>
-             </a>
           </div>
         </article>
         <article className="project-card card1">

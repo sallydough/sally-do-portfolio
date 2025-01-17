@@ -13,7 +13,7 @@ const About = () => {
           <div className="about-picture-mobile"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
           <div className="about-paragraph">
             <p>
-              HI, I'M SALLY. DESIGNING, DEVELOPING, AND MAINTAINING WEB APPLICATIONS USING FIGMA, HTML, CSS, REACT, AND RELATED TECHNOLOGIES.
+              HI, I'M SALLY. DESIGNING AND DEVELOPING USER-FOCUSED MOBILE AND WEB APPLICATIONS THAT DRIVES ENGAGMENT AND MEETS BUSINESS GOALS.
               </p>
           </div>
 
